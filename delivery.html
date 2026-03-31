@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jarad transportation agency</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo"><a href="#">JARAD</a></div>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="booking.html">booking</a></li>
+                <li><a href="delivery.html">delivery</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- delivery section -->
+    <section class="delivery">
+        <h2>Schedule Your Delivery</h2>
+        <form action="#" method="post" class="delivery-form">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="name" required>
+                <label for="phone">Phone:</label>
+                <input type="tel" id="phone" name="phone" placeholder="phone" required>
+                <label for="pickup">Pickup Location:</label>
+                <input type="text" id="pickup" name="pickup" placeholder="pickup location" required>
+                <label for="destination">Destination:</label>
+                <input type="text" id="destination" name="destination" placeholder="destination" required>
+                <label for="image">Image:</label>
+                <input type="file" id="image" name="image" accept="image/*" required>
+                <label for="date">Date:</label>
+                <input type="date" id="date" name="date" required>
+                <label for="time">Time:</label>
+                <input type="time" id="time" name="time" required>
+                <label for="description">Description:</label>
+                <textarea id="description" name="description" placeholder="Description" required></textarea>
+                <button type="reset">Reset</button>
+                <button type="submit">Schedule Delivery</button>
+
+            </div>
+        </form>
+    </section>
+        <!-- footer section -->
+    <footer>
+        <p>&copy; 2026 Jarad Transportation Agency. All rights reserved.</p>
+        <ol>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms of Service</a></li>
+            <li><a href="#">Contact Us</a></li>
+        </ol>
+    </footer>
+
+</body>
+
+</html>
